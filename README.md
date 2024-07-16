@@ -32,7 +32,7 @@ O padrão de conversão é utilizado para mapear dados de um objeto para outro, 
 ### Uso no Código:
 O método BeanUtils.copyProperties é usado para mapear os dados do DTO ParkingSpotDto para a entidade ParkingSpotModel.
 
-## Tratamento de Exceções (Exception Handling)
+## 6. Tratamento de Exceções (Exception Handling)
 Embora não seja um padrão de projeto formal, o tratamento de exceções é uma prática importante para garantir a robustez do código. Ele permite que o sistema lide com erros de forma graciosa e mantenha a integridade dos dados.
 ### Uso no Código: 
 A anotação @Transactional nos métodos do ParkingSpotService garante que, se algo der errado durante uma operação de banco de dados, a transação será revertida, garantindo a consistência dos dados.
