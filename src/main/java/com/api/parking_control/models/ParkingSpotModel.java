@@ -113,20 +113,4 @@ public class ParkingSpotModel implements Serializable{
     public void setBlock(String block) {
         this.block = block;
     }
-
-    @Override
-    public String toString() {
-        return "ParkingSpotModel{" +
-                "id=" + id +
-                ", parkingSpotNumber='" + parkingSpotNumber + '\'' +
-                ", licensePlateCar='" + licensePlateCar + '\'' +
-                ", brandCar='" + brandCar + '\'' +
-                ", modelCar='" + modelCar + '\'' +
-                ", colorCar='" + colorCar + '\'' +
-                ", registrationDate=" + registrationDate +
-                ", responsibleName='" + responsibleName + '\'' +
-                ", apartment='" + apartment + '\'' +
-                ", block='" + block + '\'' +
-                '}';
-    }
 }
